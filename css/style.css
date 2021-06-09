@@ -155,9 +155,9 @@ main {
   margin: 6vh auto;
 }
 .info-title {
-  padding-top: 11.5vh;
-  padding-bottom: 6.5vh;
-  font-size: 1.8em;
+    padding-top: 11.5vh;
+    padding-bottom: 6.5vh;
+    font-size: 5vw;
   letter-spacing: 3px;
 }
 .info-sub-title {
