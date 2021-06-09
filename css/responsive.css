@@ -365,6 +365,12 @@
   .slick-slide {
     width: 100px;
   }
+  .map-wrapper {
+    height: 100%;
+  }
+  .marquee p {
+    font-size: 3vw;
+  }
 }
 @media screen and (min-width: 1151px) {
   .header-container-hide {
@@ -431,9 +437,6 @@
     padding-right: 3%;
   }
 
-  .map-wrapper {
-    height: 100vh;
-  }
   .footer-container-main {
     display: flex;
     justify-content: center;
