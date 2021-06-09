@@ -596,7 +596,7 @@ main {
   display: inline-block;
   width: 38%;
   height: 48vw;
-  background: url(/images/img_mss02.jpg) no-repeat;
+  background: url("https://github.com/ShinyaJAP/artaqualium/blob/main/images/img_mss02.jpg") no-repeat;
   background-size: contain;
   position: absolute;
   top: 0vw;
