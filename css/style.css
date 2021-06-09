@@ -283,10 +283,10 @@ main {
   text-decoration: 1px line-through #a02500;
 }
 .fee-desc {
-  font-size: 4vw;
-  line-height: 1.6;
-  margin-top: -15px;
-  margin-bottom: 5.5vh;
+    font-size: 1.3vw;
+    line-height: 1.6;
+    margin-top: -15px;
+    margin-bottom: 5.5vh;
 }
 .fee-image1 {
   margin-bottom: 5%;
