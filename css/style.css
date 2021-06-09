@@ -1,2 +1,856 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
-jjkjlkj
+body {
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "Noto Serif JP",
+    "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: #1b1b1b;
+}
+
+.header-menu,
+.header-logo {
+  display: none;
+}
+.header-list-hide {
+  display: none;
+}
+.ticket-logo-header {
+  display: none;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  align-items: flex-start;
+}
+.header-center-logo {
+  margin-top: 10px;
+  width: 40vw;
+  height: auto;
+}
+.header-menu {
+  color: white;
+  font-size: 7vw;
+  position: relative;
+  top: 2vw;
+  left: 3vw;
+}
+.header-container img {
+  width: 11.5%;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -800;
+}
+.container {
+  text-align: center;
+}
+.top-logo {
+  padding: 240px 0 80vw 0;
+}
+
+.top-text-wrapper {
+  color: white;
+  margin-bottom: 41%;
+}
+.top-text-wrapper h1 {
+  font-size: 6.5vw;
+  margin-bottom: 12.5vw;
+}
+.top-text-wrapper p {
+  font-size: 4vw;
+  line-height: 40px;
+}
+.slide-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slide-wrapper img {
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 30px !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #ff7070 !important;
+}
+.slide-container {
+  background-color: #1b1b1b;
+  padding: 28% 0;
+}
+.slick-slide {
+  width: 250px;
+  white-space: normal;
+}
+
+.map-wrapper {
+  color: white;
+  background-image: url(../images/img_floor01.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: opacity(0.8);
+  width: 100%;
+  height: 66vh;
+}
+
+.marquee p {
+  color: #f7f7f7;
+  font-size: 2rem;
+  letter-spacing: 7px;
+  line-height: 1.6;
+  padding-top: 6rem;
+  text-align: center;
+}
+.english-sub {
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 8vh;
+  letter-spacing: -12px;
+}
+.btn-type1 {
+  background-color: white;
+  color: black;
+  padding: 4.4% 11%;
+  display: inline-block;
+  width: 69%;
+  white-space: nowrap;
+}
+.btn-type1 a:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f101";
+  display: inline-block;
+}
+main {
+  color: white;
+  background-color: #1b1b1b;
+}
+.building-pic {
+  width: 95%;
+  height: auto;
+  margin-bottom: 6vh;
+}
+.access-info-container {
+  width: 84%;
+  margin: 6vh auto;
+  padding-bottom: 4vh;
+  border-bottom: 1px solid white;
+}
+.access-info-container2 {
+  width: 84%;
+  margin: 6vh auto;
+}
+.info-title {
+  padding-top: 11.5vh;
+  padding-bottom: 6.5vh;
+  font-size: 1.8em;
+  letter-spacing: 3px;
+}
+.info-sub-title {
+  font-size: 1.3em;
+  margin-bottom: 1.6em;
+}
+.info-small-title {
+  font-size: 1.2em;
+}
+.schedule-time,
+.nobusiness-time {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.nobusiness-time {
+  margin-top: 7vh;
+}
+.info-left {
+  text-align: left;
+}
+.address {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.decodeco {
+  text-decoration: underline;
+}
+.info-content1 {
+  padding-bottom: 4.7vh;
+  white-space: nowrap;
+}
+
+.btn-type2 a {
+  padding: 1rem 2.4rem;
+  background-color: white;
+  color: black;
+}
+.btn-type2 {
+  padding: 12% 0 16% 0;
+}
+.info-train,
+.info-bus {
+  text-align: left;
+}
+.come-train {
+  margin-bottom: 3.6vh;
+}
+.station-name {
+  line-height: 1.788;
+}
+.info-bus {
+  margin-top: 7.7vh;
+  white-space: nowrap;
+  margin-bottom: 15vh;
+}
+.bus-title {
+  margin-bottom: 3.7vh;
+}
+.bus-context {
+  margin-bottom: 2vh;
+}
+.fee-image1 {
+  position: relative;
+}
+.image-title {
+  background: #a02500;
+  padding: 10px;
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  font-size: 3vw;
+  font-weight: 590;
+}
+.entrance-fee {
+  color: #1b1b1b;
+  position: absolute;
+  font-size: 7vw;
+  font-weight: 900;
+  letter-spacing: -2px;
+  top: 52%;
+  left: 0;
+  right: 0;
+}
+.bigger-tax {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+.small-tax {
+  font-size: 15px;
+  position: relative;
+  top: -3px;
+}
+.fee-image2 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image-title2 {
+  background: rgb(196, 196, 196);
+  padding: 10px;
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  right: 0;
+  font-size: 3vw;
+  font-weight: 590;
+}
+.previous-fee {
+  position: absolute;
+  font-size: 5vw;
+  top: 24%;
+  left: 0;
+  letter-spacing: -1px;
+  right: 0;
+  color: black;
+  text-decoration: 1px line-through #a02500;
+}
+.fee-desc {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: -15px;
+  margin-bottom: 5.5vh;
+}
+.fee-image1 {
+  margin-bottom: 5%;
+}
+.down-logo {
+  display: inline-block;
+  font-size: 11vw;
+  color: #c4c4c4;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+}
+.entrance-fee2 {
+  color: rgb(160, 37, 0);
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  font-size: 7vw;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+.entrance-fee2-desc {
+  line-height: 1.5;
+  position: absolute;
+  top: 71%;
+  left: 21%;
+  right: 21%;
+  color: rgb(74, 74, 74);
+  font-size: 3vw;
+}
+.tickets-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3vw;
+  margin-top: 8vh;
+}
+.ticket-buy {
+  margin-bottom: 7vh;
+}
+
+.ticket-lowson {
+  margin-bottom: 20vh;
+}
+.japan-svg {
+  width: 100%;
+  margin: 0 auto;
+  stroke: #efe4d7;
+  fill: transparent;
+}
+#polypoly {
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+}
+#polypoly:hover ~ #JP-39 {
+  fill: rgb(71, 255, 117);
+  z-index: 2222;
+}
+#JP-28,
+#JP-01,
+#JP-26,
+#JP-39,
+#JP-40 {
+  fill: #ffffffc4;
+  opacity: 0.6;
+  transition: all 1.5s;
+}
+#JP-28:hover,
+#JP-01:hover,
+#JP-26:hover,
+#JP-39:hover,
+#JP-40:hover {
+  fill: white;
+  opacity: 1;
+}
+
+.slide-container2 {
+  background-color: #1b1b1b;
+}
+.slide-wrapper2 img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+}
+.slide-wrapper2 {
+  width: 60%;
+  margin: 0 auto;
+}
+.notice-context {
+  background-color: white;
+  color: black;
+  padding: 2% 0 32%;
+  height: 160px;
+  max-height: 300px;
+  border-radius: 0 0 20px 20px;
+}
+.slider2 .slider-content1,
+.slider-content2,
+.slider-content3,
+.slider-content4,
+.slider-content5,
+.slider-content6 {
+  margin: 20px;
+  border: 4px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 0 2px white;
+}
+.notice-context-container {
+  padding: 10px;
+  text-align: left;
+}
+.info-title2 {
+  padding-bottom: 2.5vh;
+  font-size: 1.8em;
+  letter-spacing: -1px;
+}
+.notice-date {
+  margin-bottom: 2vh;
+  font-size: 0.8rem;
+}
+.notice-btn {
+  margin-top: 2vh;
+}
+
+.diet-images1 {
+  position: relative;
+  width: 50%;
+}
+.diet-images1::before {
+  content: "季節に合わせて\a 食事とカクテルを、\a 能舞台を眺めながら堪能";
+  white-space: pre;
+  position: absolute;
+  line-height: 2;
+  top: 15%;
+  left: 0px;
+  right: 0px;
+  font-size: 2.9vw;
+}
+.diet-images1::after {
+  content: "メニューを詳しく見る  〉";
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  font-size: 0.8rem;
+}
+.diet-image1-desc {
+  position: absolute;
+  top: 18%;
+  left: 0;
+  right: 0;
+  line-height: 2;
+}
+.diet-images2,
+.diet-images3,
+.diet-images4 {
+  width: 50%;
+}
+.diet-images1 img,
+.diet-images2 img,
+.diet-images3 img,
+.diet-images4 img {
+  width: 100%;
+  height: 37vw;
+}
+.diet-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 4.5vh;
+}
+.image-stamp {
+  position: absolute;
+  top: 19%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 10%;
+}
+
+.back-special {
+  height: 45vw;
+  opacity: 0.8;
+}
+.lounge-name p {
+  writing-mode: vertical-rl;
+  color: black;
+  position: absolute;
+  top: 12%;
+  left: 0;
+  right: 0;
+  letter-spacing: 8px;
+  margin: auto;
+  width: 36%;
+  font-size: 3.2vw;
+}
+.diet-wrapper2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.diet-wrapper2 img {
+  width: 100%;
+  height: 38vw;
+}
+
+.diet-item1,
+.diet-item2,
+.diet-item3,
+.diet-item4 {
+  width: 50%;
+}
+
+.diet-item1 {
+  position: relative;
+  top: 0;
+}
+.diet-item1::before {
+  content: "ここでしか味わえない\aあの有名店との\aコラボスイーツを堪能";
+  color: #f7f7f7;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  white-space: pre;
+  line-height: 4.2vw;
+  font-size: 2.3vw;
+}
+.diet-item1::after {
+  content: "メニューを詳しく見る  〉";
+  position: absolute;
+  top: 78%;
+  right: 0;
+  left: 0;
+  font-size: 2vw;
+}
+.diet-wrapper2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  filter: brightness(0.5);
+}
+
+.diet-sticker-wrapper {
+  position: absolute;
+  top: 23vw;
+  left: 0;
+  right: 0;
+  width: 10%;
+  margin: auto;
+}
+.diet-sticker {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.diet-sticker img {
+  height: 30vw;
+  opacity: 0.5;
+}
+.diet-sticker-text {
+  color: black;
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 21%;
+  left: 0;
+  right: 0;
+  width: 30%;
+  margin: auto;
+  letter-spacing: 12px;
+  white-space: nowrap;
+  font-size: 3vw;
+}
+.diet-main-title {
+  position: relative;
+  top: -56vw;
+  left: 0;
+  right: 0;
+  font-size: 4.5vw;
+  line-height: 160%;
+}
+.diet-main-subtitle {
+  position: relative;
+  top: -54vw;
+  left: 0;
+  right: 0;
+  font-size: 3vw;
+  line-height: 180%;
+}
+.sweet-shop-images-left {
+  width: 100%;
+}
+.sweet-shop-images {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 15vh;
+}
+.sweet-shop-images::before {
+  content: "";
+  display: inline-block;
+  width: 38%;
+  height: 48vw;
+  background: url(/images/img_mss02.jpg) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0vw;
+  left: 62vw;
+}
+.sweets-hide,
+.sweets-hide2 {
+  display: none;
+}
+#held-places {
+  background: url(/images/bg_branch-hakata.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  z-index: 0;
+  transition: all 1.4s ease-out;
+}
+#held-places::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: inherit;
+  filter: brightness(20%);
+  z-index: -1;
+}
+.prefecture-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -21vh;
+}
+
+.prefecture-btn {
+  border: #f7f7f7 1px solid;
+  padding: 8px;
+  width: 19vh;
+  margin-left: auto;
+  display: inline-block;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 2vh;
+  top: -23vh;
+  right: 5vw;
+  transition: all 0.8s;
+  letter-spacing: 8px;
+}
+.prefecture-btn:hover {
+  background-color: #f7f7f7;
+  color: black;
+  font-size: 14px;
+  padding: 12px;
+  box-shadow: 0 0 12px 4px white;
+}
+.held-places-title {
+  font-size: 18px;
+  margin-bottom: 2.5vh;
+}
+.held-places-desc {
+  display: flex;
+  justify-content: center;
+}
+
+.held-places-desc h4 {
+  font-size: 16px;
+}
+.held-places-desc li {
+  font-size: 14px;
+  margin-bottom: 2vh;
+}
+
+.held-places-list2 {
+  text-align: left;
+}
+.held-places-list1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.list1 {
+  flex: 1;
+}
+.list2 {
+  flex: 3;
+}
+.list3 {
+  flex: 2;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 67vw 49vw 49vw 67vw;
+  gap: 10px;
+  margin-bottom: 15vw;
+}
+
+.box1 {
+  grid-column: 1/5;
+}
+.box2 {
+  grid-column: 1/3;
+}
+.box3 {
+  grid-column: 3/5;
+}
+.box4 {
+  grid-column: 1/3;
+}
+.box5 {
+  grid-column: 3/5;
+}
+.box6 {
+  grid-column: 1/5;
+}
+.bottom-box {
+  margin-bottom: 18vh;
+}
+footer {
+  background-color: black;
+  color: white;
+  position: relative;
+}
+footer::before {
+  content: "";
+  background-image: url("https://artaquarium.jp/wp-content/themes/artaquarium/img/ja/common/logo_footer.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 18vw;
+  height: 18vw;
+  background-size: contain;
+  position: absolute;
+  top: -9vw;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.footer-container-main {
+  padding-top: 16vh;
+}
+.footer-list li {
+  writing-mode: vertical-rl;
+  letter-spacing: 7px;
+  font-size: 3.5vw;
+}
+.footer-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+.ticket-buy-sticker {
+  border-top: 1px solid white;
+  margin-top: 9.5vw;
+  padding-top: 3.5vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 3vh;
+}
+.ticket-buy-sticker::before {
+  content: "チケットを購入";
+  color: black;
+  font-size: 3.3vw;
+  position: absolute;
+  top: 53%;
+  left: 12%;
+  right: 0%;
+  bottom: 53%;
+}
+.ticket-buy-sticker::after {
+  content: " 》";
+  color: #0e0e0e;
+  position: absolute;
+  font-size: 3.3vw;
+  top: 51%;
+  left: 47%;
+  right: 0;
+}
+.ticket-buy-sticker img {
+  display: inline-block;
+  width: 60vw;
+  height: 20vh;
+}
+.ticket-buy-sticker img:hover {
+  cursor: pointer;
+}
+.ticket-icon {
+  position: absolute;
+  top: 25%;
+  left: 28%;
+}
+.sns-icons {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.sns-item {
+  font-size: 8vw;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6vw;
+}
+.footer-info li {
+  line-height: 7vw;
+}
+.recruit {
+  font-size: 2.5vw;
+  margin: 4.8vh 0 4.3vh 0;
+}
+
+.store-info {
+  font-size: 2.5vw;
+}
+.recruit::after {
+  content: "》";
+  margin-left: 2vw;
+  font-size: 2.3vw;
+}
+.store-info::after {
+  content: "》";
+  margin-left: 2vw;
+  font-size: 2.3vw;
+}
+.footer-images {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 7vh auto 5.5vh auto;
+}
+.footer-images img {
+  width: 26vw;
+}
+.footer-desc-small {
+  font-size: 2.2vw;
+  margin-bottom: 8vh;
+  line-height: 2.4vh;
+}
+.copyright {
+  font-size: 2.4vw;
+  padding-bottom: 5vh;
+}

@@ -1,0 +1,572 @@
+@media screen and (min-wdith: 501px) {
+  .prefecture-btn {
+    padding: 7px;
+    width: 17vh;
+    margin-bottom: 2vh;
+    top: -21vh;
+    right: 5vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo,
+  .header-list-hide {
+    display: none;
+  }
+  .header-container img {
+    width: 85px;
+    height: 100%;
+  }
+  .header-center-logo {
+    margin-top: 10px;
+    width: 275px;
+    height: auto;
+  }
+  .header-menu {
+    top: 18px;
+    font-size: 48px;
+  }
+  .top-logo-res {
+    width: 26vw;
+  }
+  .top-logo {
+    padding: 330px 0 80vw 0;
+  }
+  .top-text-wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .top-text-wrapper p {
+    font-size: 18px;
+    line-height: 39px;
+  }
+  .slide-container {
+    padding: 12vw 0;
+  }
+  .btn-type1 {
+    padding: 2vw;
+    width: 274px;
+    font-size: 14px;
+  }
+  .column-adjust {
+    display: flex;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 10vh;
+  }
+  .column-adjust-left {
+    flex: 1;
+  }
+  .column-adjust-right {
+    flex: 1.3;
+  }
+  .building-pic {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 6vh;
+    object-fit: cover;
+  }
+  .info-small-title {
+    font-size: 16px;
+  }
+  .address {
+    font-size: 14px;
+  }
+  .fee-image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .fee-image1 svg,
+  .fee-image2 svg {
+    width: 42vw;
+    height: 25vw;
+  }
+  .fee-image1,
+  .fee-image2 {
+    width: 50%;
+  }
+  .image-title {
+    width: 78%;
+    font-size: 2.2vw;
+  }
+  .image-title2 {
+    width: 78%;
+  }
+  .previous-fee {
+    font-size: 2.6vw;
+    top: 28%;
+  }
+  .down-logo {
+    font-size: 5.2vw;
+    top: 35%;
+  }
+  .entrance-fee {
+    font-size: 4vw;
+  }
+  .entrance-fee2 {
+    font-size: 4vw;
+  }
+
+  .entrance-fee2-desc br {
+    display: none;
+  }
+  .entrance-fee2-desc {
+    position: absolute;
+    top: 71%;
+    right: 13%;
+    left: 13%;
+    font-size: 1.1111vw;
+  }
+
+  .tickets-wrapper {
+    font-size: 1vw;
+  }
+  .slick-slide {
+    width: 200px;
+  }
+  .diet-images1,
+  .diet-images2,
+  .diet-images3,
+  .diet-images4 {
+    width: 30vw;
+    height: 20vw;
+  }
+  .diet-images1 img,
+  .diet-images2 img,
+  .diet-images3 img,
+  .diet-images4 img {
+    width: 100%;
+    height: 100%;
+  }
+  .diet-wrapper {
+    width: 70%;
+    margin: 0px auto 8vh auto;
+    justify-content: center;
+  }
+  .diet-images1::before {
+    content: "季節に合わせて\a 食事とカクテルを、\a 能舞台を眺めながら堪能";
+    top: 7%;
+
+    font-size: 1.9vw;
+  }
+  .back-special {
+    height: 22vw;
+  }
+  .lounge-name p {
+    top: 7%;
+    width: 25%;
+    font-size: 1.7vw;
+  }
+  .diet-wrapper2 {
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .diet-wrapper2 img {
+    width: 100%;
+    height: 100%;
+  }
+  .diet-item1,
+  .diet-item2,
+  .diet-item3,
+  .diet-item4 {
+    width: 30vw;
+    height: 20vw;
+  }
+  .diet-main-subtitle {
+    top: -31vw;
+    font-size: 2.5vw;
+    margin-bottom: -34vh;
+  }
+  .diet-main-title {
+    top: -34vw;
+    font-size: 3.5vw;
+  }
+  .diet-sticker {
+    top: -15vw;
+  }
+  .diet-sticker-text {
+    top: 18%;
+    font-size: 2vw;
+  }
+  .sweet-shop-title {
+    padding-top: 22.5vh;
+  }
+  .image-gallery {
+    display: grid;
+    grid-template-columns: 43vw 18vw 18vw 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 5vw;
+  }
+  .box1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  .box2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .box3 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .box4 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  .box5 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+  .box6 {
+    grid-row: 1/3;
+    grid-column: 4/5;
+  }
+  footer::before {
+    width: 98px;
+    top: -6vw;
+  }
+  .footer-container-main {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer-left-items {
+    order: 1;
+    flex: 1;
+  }
+  .footer-right-items {
+    order: 3;
+    flex: 1;
+  }
+  .footer-center-items {
+    order: 2;
+    flex: 2;
+  }
+  .ticket-buy-sticker img {
+    display: inline-block;
+    width: 230px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .sns-item {
+    font-size: 24px;
+  }
+  .ticket-buy-sticker::before {
+    content: "チケットを\a購入";
+    font-size: 18px;
+    white-space: pre;
+    position: absolute;
+    color: black;
+    z-index: 22;
+    top: 38%;
+    bottom: 38%;
+  }
+  .ticket-icon {
+    left: 14%;
+    width: 40px;
+    top: 19%;
+    position: absolute;
+  }
+  .ticket-buy-sticker::after {
+    content: " 》";
+    font-size: 26px;
+    top: 44%;
+    left: 84%;
+  }
+  .ticket-buy-sticker {
+    border: none;
+  }
+  .footer-list li {
+    font-size: 14px;
+  }
+  .footer-info {
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .footer-info li {
+    line-height: 35px;
+  }
+  .recruit {
+    font-size: 12px;
+    margin: 4.8vh 0 1.3vh 0;
+    white-space: nowrap;
+  }
+  .store-info {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .recruit::after,
+  .store-info::after {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .ticket-buy-sticker {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .footer-images {
+    width: 60%;
+    justify-content: center;
+  }
+  .footer-images img {
+    width: 160px;
+    margin-right: 16px;
+  }
+  .footer-desc-small,
+  .copyright {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 921px) {
+  .sweet-shop-images-left {
+    display: none;
+  }
+  .sweets-hide {
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .sweets-hide2 {
+    display: block;
+    width: 21vw;
+    height: 350px;
+    position: relative;
+    top: -350px;
+    object-fit: cover;
+  }
+
+  .sweet-shop-images::before {
+    content: "";
+    display: inline-block;
+    width: 21vw;
+    height: 350px;
+    background: url(/images/img_mss02.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 79%;
+    left: 79%;
+  }
+  .sweet-shop-images {
+    margin-bottom: -19vh;
+  }
+  .japan-svg {
+    transform: translate(26%, 10px);
+  }
+  .held-places-desc-wrapper {
+    position: relative;
+    top: -12vh;
+  }
+  .slick-slide {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 1151px) {
+  .header-container-hide {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+  }
+  .header-list-wrapper-hide {
+    margin-right: 40px;
+  }
+  .header-list-hide {
+    display: flex;
+    align-items: center;
+  }
+  .header-list-hide li {
+    margin-right: 35px;
+    white-space: nowrap;
+  }
+  .header-but-ticket {
+    background-color: white;
+    width: 120px;
+    height: 85px;
+  }
+  .header-but-ticket {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .header-but-ticket::before {
+    content: "チケットを購入";
+    position: absolute;
+    top: 61px;
+    left: 15px;
+    font-size: 13px;
+    color: black;
+  }
+  .ticket-logo-header {
+    width: 48px;
+    position: absolute;
+    top: -28px;
+    left: 33px;
+    display: block;
+  }
+  .header-logo {
+    flex: 2;
+    margin-left: 30px;
+    display: block;
+  }
+  .header-list-wrapper-hide {
+    /*　here is header li */
+    flex: 12;
+  }
+  .header-center-logo {
+    display: none;
+  }
+  .header-menu {
+    display: none;
+  }
+  .slide-wrapper img {
+    width: 67%;
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .map-wrapper {
+    height: 100vh;
+  }
+  .footer-container-main {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .japan-svg {
+    transform: translate(40%, 10px);
+    width: 55%;
+    z-index: 2;
+  }
+  .held-places-desc-wrapper {
+    position: relative;
+    top: -42vh;
+    right: 27%;
+    z-index: -1;
+  }
+  .held-places-desc li {
+    font-size: 18px;
+    margin-bottom: 4vh;
+  }
+  .held-places-title {
+    font-size: 26px;
+    margin-bottom: 3.5vh;
+  }
+  .diet-main-title {
+    top: -30vw;
+    font-size: 2.5vw;
+  }
+  .diet-main-subtitle {
+    top: -24vw;
+    font-size: 2vw;
+    margin-bottom: -35vh;
+  }
+  .slider-content1,
+  .slider-content2,
+  .slider-content3,
+  .slider-content4,
+  .slider-content5,
+  .slider-content6 {
+    position: relative;
+  }
+  .notice-context {
+    display: none;
+  }
+  .slider2 {
+    margin: 0px;
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px white;
+  }
+  .slide-wrapper2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 420px;
+    border-radius: 20px 20px 0 0;
+    filter: brightness(0.4);
+  }
+  .slider-content1::after {
+    font-weight: 600;
+    content: "2021.05.07\a 6月1日（火）休館のお知らせ";
+    white-space: pre;
+    position: absolute;
+    bottom: 43%;
+    right: 13%;
+    left: 13%;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .slider-content2::after {
+    font-weight: 600;
+    content: "2021.05.07\a 5月12日（水）より営業再開のお知らせ";
+    white-space: pre;
+    position: absolute;
+    bottom: 43%;
+    right: 13%;
+    left: 13%;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .slider-content3::after {
+    font-weight: 600;
+    content: "2021.04.28 \a 人気番組「吉田類の酒場放浪記」で \a 吉田類さんにご来場頂きました";
+    white-space: pre;
+    position: absolute;
+    bottom: 16%;
+    right: 13%;
+    left: 13%;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .slider-content4::after {
+    font-weight: 600;
+    content: "2021.04.24 \a 緊急事態宣言における臨時休館のお知らせ";
+    white-space: pre;
+    position: absolute;
+    bottom: 43%;
+    right: 13%;
+    left: 13%;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .slider-content5::after {
+    font-weight: 600;
+    content: "2021.04.24 \a 臨時休館による購入済み入場券の返金手続きについて";
+    white-space: pre;
+    position: absolute;
+    bottom: 43%;
+    right: 13%;
+    left: 13%;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .slider-content6::after {
+    font-weight: 600;
+    content: "2021.04.23 \a カフェ「華魚繚乱」がGW期間のみ限定営業！\a コーヒーをはじめとしたお飲み物のメニューをご提供致します";
+    white-space: pre;
+    position: absolute;
+    bottom: 29%;
+    right: 6%;
+    left: 6%;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .image-title,
+  .image-title2 {
+    font-size: 2vw;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    margin: 21px;
+  }
+  .slick-prev {
+    left: -70px;
+  }
+}
