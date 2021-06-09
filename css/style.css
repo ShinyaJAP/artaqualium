@@ -110,7 +110,7 @@ video {
 
 .marquee p {
   color: #f7f7f7;
-  font-size: 2rem;
+  font-size: 5vw;
   letter-spacing: 7px;
   line-height: 1.6;
   padding-top: 6rem;
@@ -165,7 +165,7 @@ main {
   margin-bottom: 1.6em;
 }
 .info-small-title {
-  font-size: 1.2em;
+  font-size: 3.1vw;
 }
 .schedule-time,
 .nobusiness-time {
@@ -181,7 +181,7 @@ main {
 }
 .address {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 3.6vw;
 }
 .decodeco {
   text-decoration: underline;
@@ -283,7 +283,7 @@ main {
   text-decoration: 1px line-through #a02500;
 }
 .fee-desc {
-  font-size: 1.2rem;
+  font-size: 4vw;
   line-height: 1.6;
   margin-top: -15px;
   margin-bottom: 5.5vh;
@@ -336,7 +336,6 @@ main {
 }
 .japan-svg {
   width: 100%;
-  margin: 0 auto;
   stroke: #efe4d7;
   fill: transparent;
 }
