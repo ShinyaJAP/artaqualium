@@ -356,7 +356,7 @@
     margin-bottom: -19vh;
   }
   .japan-svg {
-    transform: translate(26%, 10px);
+    width: 60%;
   }
   .held-places-desc-wrapper {
     position: relative;
